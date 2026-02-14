@@ -19,7 +19,7 @@ mission "Discount Paint Set"
     job
     repeat
     to offer
-        has "Discount Paint Prompt: offered"
+        has "Discount Paint Clear: offered"
         not "enabled paint trim jobs"
     on accept
         dialog `Paint trim jobs have been enabled.`
